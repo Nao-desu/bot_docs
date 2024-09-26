@@ -18,6 +18,13 @@ export default defineUserConfig({
     docsBranch: "main",
     docsDir: "",
     lastUpdatedText: "",
+    commentConfig: {
+      type: 'valine',
+      options: {
+        appId: '...', // your appId
+        appKey: '...', // your appKey
+      }
+    },
     series: {
     },
     navbar: [
