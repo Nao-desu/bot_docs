@@ -1,5 +1,5 @@
 import { defineUserConfig } from "vuepress";
-import recoTheme from "vuepress-theme-reco";
+import { recoTheme } from "vuepress-theme-reco";
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
@@ -21,8 +21,8 @@ export default defineUserConfig({
     commentConfig: {
       type: 'valine',
       options: {
-        appId: '...', // your appId
-        appKey: '...', // your appKey
+        appId: 'Atit49lnYB5J3PcVcBoTtcQh-gzGzoHsz', // your appId
+        appKey: 'E5uC6RNfw75wrumovzgrRPtj', // your appKey
       }
     },
     series: {
